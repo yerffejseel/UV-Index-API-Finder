@@ -1,0 +1,73 @@
+body {
+    background-image: url("../assets/globe.jpg");
+    height: 100vh;
+    overflow: hidden;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.main-container {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1, label {
+    color: white;
+}
+
+h1 {
+    font-size: 50pt;
+    font-weight: 300;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 30pt;
+    font-weight: 250;
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    margin: 10px 0;
+    border-radius: 20px;
+    border-width: 1px;
+    text-align: center;
+    border-color: gray;
+}
+
+input::placeholder {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: black;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+#submit {
+    border-radius: 20px;
+    width: 125px;
+    background-color: rgb(67, 209, 102);
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
